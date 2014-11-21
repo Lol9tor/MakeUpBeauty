@@ -1,0 +1,6 @@
+*.DS_Store
+.idea/
+.idea
+.git
+.git/
+img/*.DS_Store
