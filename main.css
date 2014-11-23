@@ -8,19 +8,26 @@ html {
 
 #wrapper {
     margin: 0 auto;
+    margin-top: 5%;
     width: 960px;
+}
+
+#header {
+    margin: 10px;
+    margin-bottom: 5%;
 }
 
 .container {
     margin: 0 auto;
-    width: 940px;
+    width: 960px;
 }
 
 .column {
+    display: inline;
     float: left;
-    margin-right: 10px;
+    margin: 10px;
     overflow: hidden;
-    width: 50px;
+    width: 60px;
 }
 
 .last {
@@ -40,8 +47,8 @@ html {
 .span-11 { width: 860px; }
 .span-12 { width: 940px; }
 
-.push {
-
+.push, .pull {
+    position: relative;
 }
 
 .pull {
@@ -60,38 +67,57 @@ html {
     display: inline-block;
 }
 
+div.container>div {
+    height: 140px;
+    position: relative;
+}
+
+.column>img {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.text {
+    margin-top: 110px;
+    margin-left: 10px;
+    font-family: proxima-nova, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
 #home {
-    background: url("img/home%232.png");
+    background-color: #3387ea;
 }
 
 #about {
-    background: url("img/about%232.png");
+    background-color: #f9be3e;
 }
 
 #portfolio {
-    background: url("img/Portfolio%231.png");
+    background-color: #d3573e;
 }
 
 #photos {
-    background: url("img/photo.png");
+    background-color: #59b0e2;
 }
 
 #testimonials {
-    background: url("img/Testimonials.png");
+    background-color: #33af95;
 }
 
 #hire {
-    background: url("img/chair.png");
+    background-color: #86a73f;
 }
 
 #mask {
-    background: url("img/mask.png");
+    background-color: #777777;
 }
 
 #colorBlog {
-    background: url("img/colorBlog.png");
+    background-color: #151a26;
 }
 
 #contact {
-    background: url("img/contact.png");
+    background-color: #7e5b8c;
 }
