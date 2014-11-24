@@ -17,6 +17,31 @@ html {
     margin-bottom: 5%;
 }
 
+#blogImg>img {
+    margin-top: 10px;
+}
+
+#textDescr {
+    margin-top: 10px;
+    position: absolute;
+    font-family: proxima-nova, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    z-index: 150;
+    opacity: 0.7;
+}
+
+#textDescr>p {
+    opacity: 0.5;
+}
+
+#signature {
+    margin-right: 10px;
+    margin-top: 80px;
+    font-size: 12px;
+    text-align: right;
+}
+
 .container {
     margin: 0 auto;
     width: 960px;
@@ -28,6 +53,11 @@ html {
     margin: 10px;
     overflow: hidden;
     width: 60px;
+}
+
+.icons {
+    margin: 10px;
+    z-index: 150;
 }
 
 .last {
@@ -46,19 +76,114 @@ html {
 .span-10 { width: 780px; }
 .span-11 { width: 860px; }
 .span-12 { width: 940px; }
-
-.push, .pull {
+/*-------------------------*/
+.push_1, .pull_1,
+.push_2, .pull_2,
+.push_3, .pull_3,
+.push_4, .pull_4,
+.push_5, .pull_5,
+.push_6, .pull_6,
+.push_7, .pull_7,
+.push_8, .pull_8,
+.push_9, .pull_9,
+.push_10, .pull_10,
+.push_11, .pull_11, .mask {
     position: relative;
 }
-
-.pull {
-
+/*----------------------*/
+.push_1 {
+    left: 80px;
 }
 
+.push_2 {
+    left: 160px;
+}
+
+.push_3 {
+    left: 240px;
+}
+
+.push_4 {
+    left: 320px;
+}
+
+.push_5 {
+    left: 400px;
+}
+
+.push_6 {
+    left: 480px;
+}
+
+.push_7 {
+    left: 560px;
+}
+
+.push_8 {
+    left: 640px;
+}
+
+.push_9 {
+    left: 720px;
+}
+
+.push_10 {
+    left: 800px;
+}
+
+.push_11 {
+    left: 880px;
+}
+/*---------------------*/
+.pull_1 {
+    left: -80px;
+}
+
+.pull_2 {
+    left: -160px;
+}
+
+.pull_3 {
+    left: -240px;
+}
+
+.pull_4 {
+    left: -320px;
+}
+
+.pull_5 {
+    left: -400px;
+}
+
+.pull_6 {
+    left: -480px;
+}
+
+.pull_7 {
+    left: -560px;
+}
+
+.pull_8 {
+    left: -640px;
+}
+
+.pull_9 {
+    left: -720px;
+}
+
+.pull_10 {
+    left: -800px;
+}
+
+.pull_11 {
+    left: -880px;
+}
+/*-----------------------------*/
 .clearfix:after, .container:after{
     content: ".";
     display: block;
     height: 0;
+    width: 0;
     clear: both;
     visibility: hidden;
 }
@@ -79,11 +204,13 @@ div.container>div {
 }
 
 .text {
-    margin-top: 110px;
-    margin-left: 10px;
+    margin-top: 120px;
+    margin-left: 5px;
     font-family: proxima-nova, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 15px;
     color: white;
+    opacity: 0.6;
+    z-index: 150;
 }
 
 #home {
@@ -107,14 +234,17 @@ div.container>div {
 }
 
 #hire {
+    z-index: 150;
     background-color: #86a73f;
 }
 
 #mask {
+    z-index: -50;
     background-color: #777777;
 }
 
 #colorBlog {
+    z-index: -50;
     background-color: #151a26;
 }
 
